@@ -57,3 +57,9 @@ xellLaunch/Release_LTCG/xellLaunch.exe
 xellLaunch/Release_LTCG/BuildLog.txt
 swap_dll/Release_LTCG/swap.lastbuildstate
 swap_dll/Release_LTCG/BuildLog.txt
+xkelib/xamext.lib
+xkelib/Release21250.0/xkelib.lastbuildstate
+xkelib/Release21250.0/BuildLog.txt
+xkelib/kernelext.lib
+embed/lhelper.xex
+embed/launch.xex
