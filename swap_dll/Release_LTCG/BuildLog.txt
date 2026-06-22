@@ -1,15 +1,9 @@
-﻿Build started 6/22/2026 3:38:32 PM.
-     1>Project "E:\Development\DashLaunchl\swap_dll\swap_dll.vcxproj" on node 2 (build target(s)).
-     1>InitializeBuildStatus:
-         Touching "Release_LTCG\swap.unsuccessfulbuild".
-       ClCompile:
-         C:\Program Files (x86)\Microsoft Xbox 360 SDK\bin\win32\CL.exe /c /I../xkelib /Zi /nologo /W3 /WX- /Ox /Os /GL /D NDEBUG /D _XBOX /D LTCG /D _XBOX /D _MBCS /GF /Gm- /MT /GS- /Gy /fp:fast /fp:except- /Zc:wchar_t /Zc:forScope /GR- /openmp- /Fo"Release_LTCG\\" /Fd"Release_LTCG\vc100.pdb" /TP swap.cpp util.cpp /FI"C:\Program Files (x86)\Microsoft Xbox 360 SDK\\include\xbox\xbox_intellisense_platform.h"
-         swap.cpp
-     1>swap.cpp(374): error C2664: 'KeSetEvent' : cannot convert parameter 1 from 'PHANDLE' to 'PKEVENT'
-                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
-         util.cpp
-     1>Done Building Project "E:\Development\DashLaunchl\swap_dll\swap_dll.vcxproj" (build target(s)) -- FAILED.
+﻿Build started 6/22/2026 3:45:24 PM.
+     1>Project "E:\Development\DashLaunchl\swap_dll\swap_dll.vcxproj" on node 2 (clean target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release_LTCG\swap.lastbuildstate".
+     1>Done Building Project "E:\Development\DashLaunchl\swap_dll\swap_dll.vcxproj" (clean target(s)).
 
-Build FAILED.
+Build succeeded.
 
-Time Elapsed 00:00:01.79
+Time Elapsed 00:00:00.01

@@ -1,47 +1,9 @@
-﻿Build started 6/22/2026 3:28:07 PM.
-     1>Project "E:\Development\Dashlaunch\xellLaunch\xellLaunch.vcxproj" on node 2 (build target(s)).
-     1>InitializeBuildStatus:
-         Touching "Release_LTCG\xellLaunch.unsuccessfulbuild".
-       ClCompile:
-         C:\Program Files (x86)\Microsoft Xbox 360 SDK\bin\win32\CL.exe /c /Zi /nologo /W3 /WX- /Ox /Os /GL /D NDEBUG /D _XBOX /D LTCG /D _XBOX /D _MBCS /GF /Gm- /MT /GS- /Gy /fp:fast /fp:except- /Zc:wchar_t /Zc:forScope /GR- /openmp- /Fo"Release_LTCG\\" /Fd"Release_LTCG\vc100.pdb" /TP xelllaunch.c /FI"C:\Program Files (x86)\Microsoft Xbox 360 SDK\\include\xbox\xbox_intellisense_platform.h"
-         xelllaunch.c
-       Link:
-         C:\Program Files (x86)\Microsoft Xbox 360 SDK\bin\win32\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Development\Dashlaunch\xellLaunch\Release_LTCG\xellLaunch.exe" /INCREMENTAL:NO /NOLOGO xapilib.lib d3d9ltcg.lib d3dx9.lib xgraphics.lib xboxkrnl.lib xnet.lib xaudio2.lib xact3ltcg.lib x3daudioltcg.lib xmcoreltcg.lib vcomp.lib /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Development\Dashlaunch\xellLaunch\Release_LTCG\xellLaunch.pdb" /STACK:"262144","262144" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /RELEASE /IMPLIB:"E:\Development\Dashlaunch\xellLaunch\Release_LTCG\xellLaunch.lib" Release_LTCG\xelllaunch.obj /ignore:4089 /XEX:NO
-         Generating code
-         Finished generating code
-       ImageXex:
-         C:\Program Files (x86)\Microsoft Xbox 360 SDK\bin\win32\imagexex.exe /out:"E:\Development\Dashlaunch\xellLaunch\Release_LTCG\xellLaunch.xex" /config:"xex.xml" "E:\Development\Dashlaunch\xellLaunch\Release_LTCG\xellLaunch.exe" 
-         Microsoft(R) Xbox 360 Image File Builder Version 2.0.21256.17
-         (c)2012 Microsoft Corporation. All rights reserved.
-         
-       PostBuildEvent:
-         Description: remove encryption and restrictions
-         xextool -r a -e d -o E:\Development\Dashlaunch\Release\XellLaunch\default.xex E:\Development\Dashlaunch\xellLaunch\Release_LTCG\xellLaunch.xex
-         copy /Y /B E:\Development\Dashlaunch\ReadMe\readme_xellLaunch.txt E:\Development\Dashlaunch\Release\XellLaunch\readme.txt
-         :VCEnd
-         XexTool v6.3  -  xorloser 2006-2011 (Build Fri Oct 14 16:31:54 2011)
-         Reading and parsing input xex file...
-           removed media limit
-           removed region limit
-           removed bounding path limit
-           removed bounding device id limit
-           removed console id restriction
-           removed date restriction
-           removed keyvault privilege restriction
-           removed signed keyvault only limit
-           removed library version limit
-           removed required revocation check
-           removed media id limit
-         Creating and writing output xex file...
-         Successfully wrote altered xex to E:\Development\Dashlaunch\Release\XellLaunch\default.xex
-         
-         E:\Development\Dashlaunch\Release\XellLaunch\default.xex is devkit unencrypted compressed.
-                 1 file(s) copied.
-       FinalizeBuildStatus:
-         Deleting file "Release_LTCG\xellLaunch.unsuccessfulbuild".
-         Touching "Release_LTCG\xellLaunch.lastbuildstate".
-     1>Done Building Project "E:\Development\Dashlaunch\xellLaunch\xellLaunch.vcxproj" (build target(s)).
+﻿Build started 6/22/2026 3:45:33 PM.
+     1>Project "E:\Development\DashLaunchl\xellLaunch\xellLaunch.vcxproj" on node 2 (clean target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release_LTCG\xellLaunch.lastbuildstate".
+     1>Done Building Project "E:\Development\DashLaunchl\xellLaunch\xellLaunch.vcxproj" (clean target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:01.46
+Time Elapsed 00:00:00.02
